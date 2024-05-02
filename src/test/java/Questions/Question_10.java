@@ -11,7 +11,7 @@ public class Question_10
 		System.out.println("Enter radius");
 		Scanner s = new Scanner(System.in);
 		int radius = s.nextInt();
-		System.out.println("Area of circle is : "+2*Math.PI*radius);
+		System.out.println("Area of circle is : "+Math.PI*radius*radius);
 		
 	}
 
