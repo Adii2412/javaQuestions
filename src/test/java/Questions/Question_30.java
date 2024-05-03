@@ -1,0 +1,19 @@
+//cube of a number
+package Questions;
+
+import java.util.Scanner;
+
+public class Question_30 
+{
+
+	public static void main(String[] args) 
+	{
+		Scanner s = new Scanner(System.in);
+		System.out.println("Enter any number");
+		int number=s.nextInt();
+		int cube= number*number*number;
+		System.out.println("cube of "+number+" is "+cube);
+
+	}
+
+}
