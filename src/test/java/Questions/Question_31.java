@@ -12,8 +12,7 @@ public class Question_31
 		}else {
 			System.out.println("not armstrong");
 		}
-		
-		
+	
 	}
 
 	public static boolean isArmstrong(int num) {
